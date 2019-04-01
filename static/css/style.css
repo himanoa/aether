@@ -1,6 +1,5 @@
 body {
-    font-family: 'LatoLatinWeb', Avenir, HelveticaNeue-Light, "Helvetica Neue Light",
-                 "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
     color: #141823;
     font-size: 1.1em;
     background-color: #ecedef;
@@ -323,7 +322,7 @@ blockquote p {
 }
 ul,
 ol {
-    padding-left: 1.6em; 
+    padding-left: 1.6em;
 }
 li ul, li ol {
     padding-left: 1em;
