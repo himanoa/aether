@@ -6,7 +6,7 @@
     <main class="card-container side-gutter">
       <header class="list-header">
         <p class="list-header-subtext">{{ .Description }}</p>
-        <h1 class="list-header-title">{{ .Title }}</h1>
+        <h1 class="list-header-title"></h1>
       </header>
       {{ $paginator := .Paginate (where .Pages "Params.displayinlist" "!=" false) -}}
       {{- range $paginator.Pages -}}
