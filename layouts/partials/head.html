@@ -3,9 +3,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ if not .IsHome }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}</title>
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+  <meta name="description" content="{{ if not .IsHome }}{{.Content}}{{else}}"foobar"{{end}}" />
   <meta property="og:type" content="article">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="{{.Content}}">
   <meta property="og:image" content="default.jpg">
   <meta property="twitter:image" content="default.jpg">
   <meta property="og:url" content="{{.Permalink}}" >
