@@ -5,12 +5,10 @@
   <title>{{ if not .IsHome }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="{{ if not .IsHome }}{{ substr .Content 0 140 }}{{else}}{{end}}" />
   <meta property="og:type" content="article">
-  <meta name="twitter:card" content="{{substr .Content 0 140}}">
+  <meta name="twitter:card" content="summary">
   <meta property="og:image" content="default.jpg">
-  <meta property="twitter:image" content="default.jpg">
   <meta property="og:url" content="{{.Permalink}}" >
   <meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}" >
-  <meta property="twitter:title" content="{{ if not .IsHome }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}" >
   {{ if (fileExists "static/apple-touch-icon.png") -}}
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   {{ end -}}
