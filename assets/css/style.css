@@ -10,7 +10,7 @@ body {
   align-items: center;
   width: 100%;
   box-sizing: border-box;
-  word-break: break-word;
+  word-break : break-all;
 }
 p {
   margin: 1.5em 0;
