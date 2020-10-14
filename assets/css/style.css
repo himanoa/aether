@@ -33,6 +33,11 @@ strong {
 .nav-header {
   margin: 0;
 }
+
+.nav-large-text:hover {
+  animation: tremble .1s  infinite;
+}
+
 .nav-large-text {
   text-decoration: none;
   font-size: 2rem;
@@ -400,9 +405,6 @@ footer {
   100% {transform: translate(0px, 0px) rotateZ(0deg)}
 }
 
-.sns:hover {
-  animation: tremble .1s  infinite;
-}
 
 .lineclamp {
   line-height: 1.5;
