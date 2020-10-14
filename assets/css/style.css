@@ -403,13 +403,6 @@ footer {
 .sns:hover {
   animation: tremble .1s  infinite;
 }
-.sns-buttons {
-  margin: 1.0em  0em  0em  0em;
-}
-.sns {
-  display: inline-block;
-  margin: 0.15em;
-}
 
 .lineclamp {
   line-height: 1.5;
