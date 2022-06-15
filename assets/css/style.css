@@ -1,7 +1,5 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   color: #141823;
-  font-size: 1.1em;
   background-color: #DFEADC;
   margin: 0;
   padding: 0 0 2em 0;
@@ -11,14 +9,6 @@ body {
   width: 100%;
   box-sizing: border-box;
   word-break : break-word;
-}
-p {
-  margin: 1.5em 0;
-}
-b,
-strong {
-  font-family: 'LatoLatinWebHeavy';
-  font-weight: normal;
 }
 .nav-bar {
   width: 100%;
@@ -239,10 +229,7 @@ strong {
   overflow: hidden;
   position: fixed;
 }
-h1, h2, h3, h4, h5, h6 {
-  margin: 1.5em 0 -0.5em 0;
-  clear: both;
-}
+
 img {
   display: block;
   width: 100%;
@@ -432,4 +419,38 @@ footer {
   width: 1em;
   height: 100%;
   background-color: inherit;
+}
+
+
+* {
+  font-family: "Noto Sans JP";
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.75;
+  letter-spacing: -0.035em;
+}
+
+h2 {
+  font-size: 1.65rem;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+  letter-spacing: -0.025em;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
 }
