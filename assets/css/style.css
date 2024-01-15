@@ -324,14 +324,14 @@ footer {
 /* Medium devices (tablets, ~641px and up) */
 @media only screen and (min-width: 40.063em) {
   body {
-    font-size: 1.15rem;
+    font-size: calc(1rem + .25vw);
   }
   .nav-bar {
     padding: 0.8em 0;
   }
   .list-header-title {
     font-weight: normal;
-    font-size: 4.2em;
+    font-size: 2rm;
   }
   .card {
     border-radius: 0.2rem;
