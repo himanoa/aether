@@ -324,7 +324,7 @@ footer {
 /* Medium devices (tablets, ~641px and up) */
 @media only screen and (min-width: 40.063em) {
   body {
-    font-size: calc(1rem + .25vw);
+    font-size: 1em;
   }
   .nav-bar {
     padding: 0.8em 0;
@@ -428,8 +428,7 @@ footer {
 
 
 p {
-  font-family: "Noto Sans JP";
-  line-height: 1.7;
+  line-height: 1.8;
   letter-spacing: 0.05em;
 }
 
