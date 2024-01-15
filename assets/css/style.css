@@ -72,7 +72,7 @@ body {
   padding: 2em 0;
   margin-bottom: 2em;
   width: 100%;
-  max-width: 52rem;
+  max-width: 65rem;
   border-radius: 0.3rem;
   box-shadow: rgb(193, 193, 193) 0px 2px 4px 0px;
 }
@@ -97,7 +97,7 @@ body {
   margin: 0;
 }
 .card-container {
-  max-width: 49rem;
+  max-width: 65rem;
 }
 .card {
   display: block;
@@ -430,6 +430,8 @@ footer {
 p {
   line-height: 1.8;
   letter-spacing: 0.05em;
+  font-family: 'noto sans jp';
+  font-size: calc(1rem + .1vw);
 }
 
 h1 {
