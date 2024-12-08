@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /categories/
+Disallow: /entries/
 Disallow: /tags/
 Disallow: /*?*
+Disallow: /
 Sitemap: https://blog.himanoa.net/sitemap.xml
